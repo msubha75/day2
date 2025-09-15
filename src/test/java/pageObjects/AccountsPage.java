@@ -17,6 +17,7 @@ public class AccountsPage {
 
 	WebDriver driver;
 	WebDriverWait wait;
+	String test1;
 
 	// Constructor
 	public AccountsPage(WebDriver driver) {
