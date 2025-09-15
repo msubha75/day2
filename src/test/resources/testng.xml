@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite thread-count="1" parallel="classes" name="Salesforce">
+	<listeners>
+
+		<listener class-name="utils.TestListener">
+		</listener>
+
+	</listeners>
+	<groups>
+		<run>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+	<test thread-count="1" parallel="classes" name="Smoke">
+		<packages>
+			<package name="Test.salesforce" />
+		</packages>
+	</test>
+</suite>

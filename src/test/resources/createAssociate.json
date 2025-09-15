@@ -1,0 +1,15 @@
+{
+	  "sbrId": "tempSbrID",
+	  "firstName": "Su",
+	  "lastName": "Bhu",
+	  "sbrEmailId": "dano.doe@sbr.com",
+	  "tcsEmailId": "dano.doe@tcs.com",
+	  "sbrManager": "Jane Manager",
+	  "location": "New York",
+	  "vendorName": "TCS",
+	  "portfolioName": "QE",
+	  "startDate": "2024-01-01",
+	  "endDate": "2024-12-31",
+	  "billRate": 100.00
+	
+}
